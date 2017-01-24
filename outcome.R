@@ -1,0 +1,2 @@
+outcome<-read.csv("outcome-of-care-measures.csv",colClasses = "character")
+hist(as.numeric(outcome[,11]),xlab="30 Day death rates-heart attack",main="Histogram of 30-day mortality rate from heart attack")
